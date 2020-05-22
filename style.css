@@ -1,0 +1,103 @@
+/*
+ Theme Name:     themify-base-child
+ Template:       themify-base
+ Version:        5.2.5
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/*Changing color of button*/
+.tribe-events .tribe-events-c-ical__link {
+    align-items: center;
+    color: #ffffff;
+    background-color: red;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    display: inline-flex;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.tribe-events .tribe-events-c-ical__link {
+    border-color: #ff0a02;
+    color: #ffffff;
+}
+/*Changing color of button hover*/
+.tribe-events .tribe-events-c-ical__link:active, .tribe-events .tribe-events-c-ical__link:focus, .tribe-events .tribe-events-c-ical__link:hover {
+    color: #fff;
+    background-color: red;
+}
+
+/*Changing color of previous and next event*/
+.tribe-events .tribe-events-c-nav__next:disabled, .tribe-events .tribe-events-c-nav__prev:disabled {
+    background-color: transparent;
+    color: #ff707087;
+}
+
+/*changed the font color of the search bar to red*/
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-form-control-text__input, .tribe-common .tribe-common-form-control-text__input {
+    color: #ff0000;
+    font-family: Helvetica Neue,Helvetica,-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
+    line-height: 1.62;
+    font-weight: 400;
+}
+
+/*changed the border color of the search bar to red*/
+.woocommerce-info {
+    border-top-color: #ff0303;
+}
+
+/*removed bullets from the register page*/
+ul, ol {
+    list-style-type: none;
+}
+
+/*changed the color of the price to red*/
+.woocommerce ul.products li.product .price {
+    color: #ff0000;
+    display: block;
+    font-weight: 400;
+    margin-bottom: .5em;
+    font-size: .857em;
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #ff0000;
+    font-size: 1.25em;
+}
+/*changed the color of the checkout button to red*/
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #ff0101;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*changed the color of the checkout button to red*/
+input[type=reset], input[type=submit], button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+/*changed the color of the paypal alert to red*/
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin: 1em 0;
+    font-size: .92em;
+    border-radius: 2px;
+    line-height: 1.5;
+    background-color: #dfdcde;
+    color: #ff0000;
+}
